@@ -44,14 +44,42 @@ if(document.getElementsByClassName("navbar-item")){
 
 // Cookie Alert
 if(localStorage.cookie == null){
-  const COOKIE_ALERT = window.document.getElementsByClassName("cookie-alert")[0]
-  COOKIE_ALERT.style.display = "block" 
+    const COOKIE_ALERT = window.document.getElementsByClassName("cookie-alert")[0]
+    COOKIE_ALERT.style.display = "block" 
 
-  const COOKIES = window.document.getElementById("btn-cookie")
-  COOKIES.addEventListener("click", (evt) => {
-      localStorage.cookie = "true"
-      const COOKIE_ALERT = window.document.getElementsByClassName("cookie-alert")[0]
-      COOKIE_ALERT.style.display = "none" 
-  })
+    const COOKIES = window.document.getElementById("btn-cookie")
+    COOKIES.addEventListener("click", (evt) => {
+        localStorage.cookie = "true"
+        const COOKIE_ALERT = window.document.getElementsByClassName("cookie-alert")[0]
+        COOKIE_ALERT.style.display = "none" 
+    })
 }
+
+
+// Delay in loading product cards
+function handleIntersection(entries, observer) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Element is visible in the viewport, load the content
+            const element = entry.target;
+            // Stop observing the element
+            element.style.opacity = 1;
+            observer.unobserve(element);
+        }
+    });
+}
+
+function lazyLoadCard() {
+    const cards = [...document.getElementsByClassName("card")]
+
+    // Set up an observer for each image
+    const observer = new IntersectionObserver(handleIntersection);
+
+    cards.forEach(card => {
+        observer.observe(card);
+    });
+}
+
+// Call the lazy loading function when the document is ready
+document.addEventListener('DOMContentLoaded', lazyLoadCard);
 

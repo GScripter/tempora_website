@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300;400&display=swap");
 *,
 *::after,
@@ -274,4 +275,66 @@ footer .footer-container {
         font-size: 19px;
         color: #FFFFFF; }
 
-/*# sourceMappingURL=style.css.map */
+@media (min-width: 1400px) {
+  .col-xl-3 {
+    max-width: 20%; } }
+main .banner {
+  width: 100%;
+  height: 400px;
+  position: relative; }
+  main .banner img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+    object-fit: cover; }
+  main .banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif; }
+  @media (min-width: 992px) {
+    main .banner {
+      height: 600px; } }
+main .products {
+  margin: 35px 0; }
+  main .products select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #DDDDDD; }
+  main .products .card {
+    opacity: 0;
+    transition: opacity 1s;
+    border: none;
+    background-color: #FAFAFA; }
+    main .products .card:hover {
+      filter: brightness(95%); }
+    main .products .card .card-body {
+      padding: 10px 3px;
+      color: #080808; }
+      main .products .card .card-body h3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        /* Número de linhas que deseja exibir */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #080808;
+        font-size: 15px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+        font-weight: 300; }
+      main .products .card .card-body .old-price {
+        text-decoration: line-through;
+        margin-right: 5px;
+        opacity: .7;
+        font-size: 15px; }
+      main .products .card .card-body .current-price {
+        font-size: 19px;
+        margin-right: 5px; }
+
+/*# sourceMappingURL=products.css.map */
