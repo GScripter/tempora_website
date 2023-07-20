@@ -1,4 +1,5 @@
 @import '../style.scss';
+@import '../card.scss';
 
 main{
     // Carousel
@@ -157,36 +158,6 @@ main{
 
                     &:hover{
                         filter: brightness(95%);
-                    }
-
-                    .card-body{
-                        padding: 10px 3px;
-                        color: $black;
-
-                        h3{
-                            display: -webkit-box;
-                            -webkit-line-clamp: 4; /* Número de linhas que deseja exibir */
-                            -webkit-box-orient: vertical;
-                            overflow: hidden;
-                            text-overflow: ellipsis;
-                            color: $black;
-                            font-size: $nano;
-                            margin-top: 5px;
-                            letter-spacing: 1px;
-                            font-weight: 300;
-                        }
-
-                        .old-price{
-                            text-decoration: line-through;
-                            margin-right: 5px;
-                            opacity: .7;
-                            font-size: $nano;
-                        }
-
-                        .current-price{
-                            font-size: $small;
-                            margin-right: 5px;
-                        }
                     }
                 }
             }

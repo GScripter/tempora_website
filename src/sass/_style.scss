@@ -172,6 +172,7 @@ header{
         overflow: hidden;
         transition: .4s;
         z-index: 3;
+        top: 0;
 
         @include landscape{
             &{

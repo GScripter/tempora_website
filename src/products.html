@@ -116,30 +116,159 @@
                             <a class="text-decoration-none list-group-item list-group-item-light" href="#">Relógio</a>
                         </ul>
 
-                        <select class="d-lg-none" id="" name="">
-                            <option value="">Todos os produtos</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                            <option value="">Relógio</option>
-                        </select>
+                        <div class="dropdown d-lg-none">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Todos os produtos
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="col-12 col-lg-9 col-xl-9 col-xxl-10">
                         <div class="row g-2 justify-content-center">
+                            <!-- Sort Products -->
+                            <div class="col-12">
+                                <div class="sort-products justify-content-lg-end mb-3">
+                                    <label for="sort-select">Ordenar por:</label>
+                                    <select id="sort-select">
+                                        <option value="default">Padrão</option>
+                                        <option value="price-asc">Preço: Menor para Maior</option>
+                                        <option value="price-desc">Preço: Maior para Menor</option>
+                                        <option value="name-asc">Nome: A-Z</option>
+                                        <option value="name-desc">Nome: Z-A</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Products -->
                             <div class="col-6 col-md-4 col-xl-3 mb-3">
                                 <article class="card">
-                                    <a href="#">
+                                    <a href="product-detail.html">
                                         <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
+                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
+                                        </div>
+                                    </a>
+                                </article>
+                            </div> 
+                            <div class="col-6 col-md-4 col-xl-3 mb-3">
+                                <article class="card">
+                                    <a href="product-detail.html">
+                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
+                                        <div class="card-body">
+                                            <span class="old-price">R$ 100,00 </span><br/>
+                                            <span class="current-price">R$ 100,00 </span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -152,7 +281,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -165,7 +294,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -178,7 +307,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -191,7 +320,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -204,7 +333,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -217,7 +346,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>
@@ -230,683 +359,7 @@
                                         <div class="card-body">
                                             <span class="old-price">R$ 100,00 </span><br/>
                                             <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
-                                            <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
-                                        </div>
-                                    </a>
-                                </article>
-                            </div> 
-                            <div class="col-6 col-md-4 col-xl-3 mb-3">
-                                <article class="card">
-                                    <a href="#">
-                                        <img class="card-img-top" src="https://res.cloudinary.com/degkn8uwg/image/upload/v1/store_media/products/2023/01/27/436881892-12409706_nnlrpj" alt="">
-                                        <div class="card-body">
-                                            <span class="old-price">R$ 100,00 </span><br/>
-                                            <span class="current-price">R$ 100,00 </span>
-                                            <span style="color: #00A650; font-size: 15px;">Frete grátis</span>
+                                            <span class="shipping">Frete grátis</span>
                                             <h3>Kit Prong Cravejado Corrente + Pulseira Promoção Especial (ENTREGA EXPRESSA)</h3>
                                         </div>
                                     </a>

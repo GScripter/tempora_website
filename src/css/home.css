@@ -91,7 +91,8 @@ header .dropdown {
   height: 0;
   overflow: hidden;
   transition: .4s;
-  z-index: 3; }
+  z-index: 3;
+  top: 0; }
   @media (orientation: landscape) and (max-width: 992px) {
     header .dropdown {
       overflow: scroll; } }
@@ -275,6 +276,35 @@ footer .footer-container {
         font-size: 19px;
         color: #FFFFFF; }
 
+.card:hover {
+  filter: brightness(95%); }
+.card .card-body {
+  padding: 10px 3px;
+  color: #080808; }
+  .card .card-body h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* Número de linhas que deseja exibir */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #080808;
+    font-size: 15px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    font-weight: 300; }
+  .card .card-body .old-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+    opacity: .7;
+    font-size: 15px; }
+  .card .card-body .current-price {
+    font-size: 19px;
+    margin-right: 5px; }
+  .card .card-body .shipping {
+    color: #00A650;
+    font-size: 15px; }
+
 main .carousel-item {
   width: 100%;
   height: 400px; }
@@ -375,29 +405,6 @@ main .products-groups {
             max-width: 230px; } }
         main .products-groups .group .cards .card:hover {
           filter: brightness(95%); }
-        main .products-groups .group .cards .card .card-body {
-          padding: 10px 3px;
-          color: #080808; }
-          main .products-groups .group .cards .card .card-body h3 {
-            display: -webkit-box;
-            -webkit-line-clamp: 4;
-            /* Número de linhas que deseja exibir */
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            color: #080808;
-            font-size: 15px;
-            margin-top: 5px;
-            letter-spacing: 1px;
-            font-weight: 300; }
-          main .products-groups .group .cards .card .card-body .old-price {
-            text-decoration: line-through;
-            margin-right: 5px;
-            opacity: .7;
-            font-size: 15px; }
-          main .products-groups .group .cards .card .card-body .current-price {
-            font-size: 19px;
-            margin-right: 5px; }
   main .products-groups .btn-show-catalog {
     color: #FFFFFF;
     width: 90%;

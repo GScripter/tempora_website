@@ -83,3 +83,21 @@ function lazyLoadCard() {
 // Call the lazy loading function when the document is ready
 document.addEventListener('DOMContentLoaded', lazyLoadCard);
 
+const THUMBNAILS = [...document.getElementsByClassName("image-thumbnail")]
+THUMBNAILS.map(thumbnail => {
+    thumbnail.addEventListener("click", (evt) => {
+        // Move scroll by clicking thumbnail
+        evt.target.scrollIntoView({
+            behavior: "smooth",
+            inline: "center",
+            block: "nearest"
+        })
+        THUMBNAILS.map(thumbnails => {
+            thumbnails.style = "border: none;"
+        })
+        evt.target.style = "border: 4px solid #ffffff;"
+        document.getElementsByClassName("expansive-thumbnail")[0].src = evt.target.src
+    })
+})
+
+
