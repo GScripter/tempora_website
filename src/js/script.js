@@ -83,6 +83,8 @@ function lazyLoadCard() {
 // Call the lazy loading function when the document is ready
 document.addEventListener('DOMContentLoaded', lazyLoadCard);
 
+
+// Product Gallery 
 const THUMBNAILS = [...document.getElementsByClassName("image-thumbnail")]
 THUMBNAILS.map(thumbnail => {
     thumbnail.addEventListener("click", (evt) => {

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto:wght@300;400&display=swap");
 *,
 *::after,
@@ -282,37 +281,102 @@ footer .footer-container {
         font-size: 19px;
         color: #FFFFFF; }
 
-.card {
-  border: none; }
-  .card:hover {
-    filter: brightness(96%); }
-  .card .card-body {
-    padding: 10px 3px;
-    color: #080808; }
-    .card .card-body h3 {
-      display: -webkit-box;
-      -webkit-line-clamp: 4;
-      /* Número de linhas que deseja exibir */
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      color: #080808;
-      font-size: 15px;
-      margin-top: 5px;
-      letter-spacing: 1px;
-      font-weight: 300; }
-    .card .card-body .old-price {
-      text-decoration: line-through;
-      margin-right: 5px;
-      opacity: .7;
-      font-size: 15px; }
-    .card .card-body .current-price {
-      font-size: 19px;
+.comments .comment-summary {
+  margin-bottom: 30px; }
+  .comments .comment-summary .stars-breakdown {
+    display: flex;
+    flex-direction: column; }
+    .comments .comment-summary .stars-breakdown .star-rating {
+      display: flex;
+      margin-bottom: 10px; }
+      .comments .comment-summary .stars-breakdown .star-rating .star {
+        font-size: 15px;
+        color: #333; }
+      .comments .comment-summary .stars-breakdown .star-rating .progress-bar {
+        width: calc(100% - 115px);
+        max-width: 500px;
+        margin-left: 10px;
+        height: 20px;
+        background-color: #eee;
+        border-radius: 4px; }
+        .comments .comment-summary .stars-breakdown .star-rating .progress-bar .progress {
+          height: 100%;
+          background-color: #080808;
+          border-radius: 4px; }
+      .comments .comment-summary .stars-breakdown .star-rating .rating-percentage {
+        font-size: 15px;
+        margin-left: 10px;
+        color: #555; }
+  .comments .comment-summary .total-rating .total-ratings {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 5px; }
+  .comments .comment-summary .total-rating .average-rating {
+    font-size: 19px;
+    font-weight: bold;
+    color: #333; }
+.comments .comments-sort {
+  display: flex;
+  margin-bottom: 30px; }
+  .comments .comments-sort label {
+    font-size: 15px;
+    margin-right: 10px;
+    color: #777; }
+  .comments .comments-sort select {
+    font-size: 15px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #555;
+    background-color: #DDDDDD; }
+.comments .comment-section {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px; }
+  .comments .comment-section .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; }
+    .comments .comment-section .user-info img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 10px; }
+    .comments .comment-section .user-info .user-name {
+      font-weight: bold; }
+  .comments .comment-section .rating {
+    color: #ffd700;
+    font-size: 19px;
+    margin-bottom: 10px; }
+    .comments .comment-section .rating i {
       margin-right: 5px; }
-    .card .card-body .shipping {
-      color: #00A650;
+  .comments .comment-section .comment-title {
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .comments .comment-section .comment-text {
+    line-height: 1.5; }
+  .comments .comment-section .ratings-summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px; }
+    .comments .comment-section .ratings-summary .total-ratings, .comments .comment-section .ratings-summary .average-rating {
       font-size: 15px;
-      white-space: nowrap; }
+      color: #777; }
+  .comments .comment-section .comment-images {
+    display: flex;
+    margin-top: 10px;
+    overflow-X: scroll; }
+    .comments .comment-section .comment-images img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-bottom: 10px; }
 
 .pagination {
   margin-top: 50px; }
@@ -336,59 +400,10 @@ footer .footer-container {
       font-size: 30px;
       color: #080808; }
 
-@media (min-width: 1400px) {
-  .col-xl-3 {
-    max-width: 20%; } }
-main .banner {
-  width: 100%;
-  height: 400px;
-  position: relative; }
-  main .banner img {
-    width: 100%;
-    height: 100%;
-    filter: brightness(40%);
-    object-fit: cover; }
-  main .banner h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #FFFFFF;
-    font-size: 30px;
-    font-family: 'Playfair Display SC', serif; }
+main .comments {
+  margin: 100px auto 0 auto; }
   @media (min-width: 992px) {
-    main .banner {
-      height: 600px; } }
-main .products {
-  margin: 35px 0; }
-  main .products .dropdown-toggle {
-    width: 100%;
-    margin-bottom: 20px;
-    background-color: #DDDDDD;
-    border: none; }
-    main .products .dropdown-toggle:focus {
-      border: none; }
-  main .products .dropdown-menu {
-    width: 100%; }
-  main .products .sort-products {
-    display: flex;
-    align-items: center; }
-    main .products .sort-products label {
-      margin-right: 1rem; }
-    main .products .sort-products select {
-      padding: 0.5rem;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background-color: #fff;
-      cursor: pointer; }
-      main .products .sort-products select:focus {
-        outline: none;
-        box-shadow: 0 0 3px rgba(0, 123, 255, 0.6); }
-  main .products .card {
-    opacity: 0;
-    transition: opacity 1s;
-    border: none;
-    background-color: #FAFAFA; }
+    main .comments {
+      margin-top: 150px; } }
 
-/*# sourceMappingURL=products.css.map */
+/*# sourceMappingURL=comments.css.map */

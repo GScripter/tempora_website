@@ -2,7 +2,7 @@
     border: none;
 
     &:hover{
-        filter: brightness(95%);
+        filter: brightness(96%);
     }
 
     .card-body{
@@ -37,6 +37,7 @@
         .shipping{
             color: #00A650;
             font-size: $nano;
+            white-space: nowrap;
         }
     }
 }

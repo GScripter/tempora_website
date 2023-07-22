@@ -261,10 +261,10 @@ footer .infobar {
       font-size: 19px; }
 footer .footer-container {
   background-color: #080808;
-  padding-top: 60px;
+  padding-top: 30px;
   color: #FFFFFF; }
   footer .footer-container h2 {
-    font-size: 21px;
+    font-size: 22px;
     color: #DDDDDD;
     margin-bottom: 20px;
     font-weight: bold; }
@@ -285,7 +285,7 @@ footer .footer-container {
 .card {
   border: none; }
   .card:hover {
-    filter: brightness(96%); }
+    filter: brightness(95%); }
   .card .card-body {
     padding: 10px 3px;
     color: #080808; }
@@ -311,30 +311,7 @@ footer .footer-container {
       margin-right: 5px; }
     .card .card-body .shipping {
       color: #00A650;
-      font-size: 15px;
-      white-space: nowrap; }
-
-.pagination {
-  margin-top: 50px; }
-  .pagination-item {
-    margin: 0 8px; }
-    .pagination-item a {
-      color: #080808;
-      background-color: #DDDDDD;
-      text-decoration: none;
-      font-size: 20px;
-      width: 30px;
-      height: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%; }
-    .pagination-item .active {
-      background-color: #080808;
-      color: #FFFFFF; }
-    .pagination-item:first-child a, .pagination-item:last-child a {
-      font-size: 30px;
-      color: #080808; }
+      font-size: 15px; }
 
 @media (min-width: 1400px) {
   .col-xl-3 {
@@ -391,4 +368,4 @@ main .products {
     border: none;
     background-color: #FAFAFA; }
 
-/*# sourceMappingURL=products.css.map */
+/*# sourceMappingURL=producs.css.map */
